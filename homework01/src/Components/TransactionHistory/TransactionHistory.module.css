@@ -1,0 +1,20 @@
+.transactionHistory {
+  border-collapse: collapse;
+  text-align: center;
+  background-color: white;
+}
+.transactionHistory th {
+  width: 250px;
+  background: #00bcd4;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+tr {
+  color: #1f5b94;
+  height: 50px;
+}
+
+tr:nth-child(2n) {
+  background: #ecf2f3;
+}
