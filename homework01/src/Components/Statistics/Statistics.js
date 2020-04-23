@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classes from './Statistics.module.css';
-
-const randomColor = () => Math.floor(Math.random() * 12345678).toString(16);
+import randomColor from '../Helpers/Helpers';
 
 const Statistics = ({ title, stats }) => (
   <section className={classes.statistics}>
@@ -32,6 +31,10 @@ Statistics.propTypes = {
       percentage: PropTypes.number.isRequired,
     }),
   ),
+};
+
+Statistics.defaultProps = {
+  title: '',
 };
 
 export default Statistics;

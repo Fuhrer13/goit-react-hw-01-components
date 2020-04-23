@@ -2,10 +2,10 @@
   border-collapse: collapse;
   text-align: center;
   background-color: white;
-  margin: auto;
+  margin: 0, auto;
 }
 .transactionHistory th {
-  width: 250px;
+  width: 150px;
   background: #00bcd4;
   color: white;
   font-size: 13px;

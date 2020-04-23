@@ -1,9 +1,9 @@
 .statistics {
-  width: 500px;
+  width: 250px;
   border-radius: 5px;
   border: 1px solid #e4e9f0;
   background-color: rgb(167, 243, 233);
-  margin: auto;
+  margin: 0, auto;
   padding: 5;
 }
 .title {
